@@ -11,6 +11,7 @@
  padding: 20px 20px;
  box-sizing: border-box;
  
+ 
 }
 .menu{
  display: flex;
@@ -36,6 +37,7 @@
  background-position: top;
  background-repeat: no-repeat;
  background-size: cover;
+ background-attachment: fixed;
 }
 .div2{
  width: 100%;
@@ -191,6 +193,7 @@ width: 15%;
  margin-top: 50px;
  background-image: url(../images/We\ Make\,Background.png);
  position: relative;
+ background-attachment: fixed;
 }
 .div42{
  width: 100%;
@@ -635,6 +638,7 @@ margin: 20px 5px;
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
+ background-attachment: fixed;
 }
 .div17{
  width: 100%;
