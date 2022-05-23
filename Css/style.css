@@ -1,0 +1,705 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation bar start */
+.navbar{
+ width: 100%;
+ height: 70px;
+ padding: 20px 20px;
+ box-sizing: border-box;
+ 
+}
+.menu{
+ display: flex;
+ list-style-type: none;
+ justify-content: center;
+ 
+}
+.link1{
+ text-decoration: none;
+ color: black;
+ padding: 10px 20px;
+}
+.image1{
+ margin-top: 0px;
+}
+
+/* Hero Section */
+.div1{
+ width: 100%;
+ height: 90vh;
+ background-image: url(../images/Slider\ Background.png);
+ position: relative;
+ background-position: top;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.div2{
+ width: 100%;
+ height: 90vh;
+ background-color: rgb(26, 54, 67, 0.85);
+ 
+ position: absolute;
+ top: 70px;
+ z-index: 5;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ color: white;
+}
+.kid11{
+ width: 25%;
+ height: auto;
+
+}
+.kid12{
+ width: 50%;
+ height: auto;
+ 
+}
+.kid13{
+ width: 25%;
+ height: auto;
+}
+.para1{
+ font-size: 15px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#moly{
+ color: #FFE500;
+}
+.head1{
+ font-size: 80px;
+ font-weight: bold;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.para2{
+ font-size: 14px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#btn1{
+ margin-top: 30px;
+ padding: 7px 20px;
+ color: #FFE500;
+ font-size: 16px;
+ border: 0px;
+ border-radius: 30px;
+}
+.dotp{
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+}
+.dot2,.dot3{
+ background-color: white;
+ width: 10px;
+ height: 10px;
+ margin: 5px 10px;
+ border-radius: 100px;
+}
+.dot2:hover{
+ background-color: #FFE500;
+}
+.dot1{
+ background-color: white;
+ width: 10px;
+ height: 10px;
+ margin: 5px 10px;
+ border-radius: 100px;
+}
+.dot1:hover{
+ background-color: #FFE500;
+}
+
+
+/* Second Section */
+.parent2{
+ width: 100%;
+ height: 40vh;
+ display: flex;
+ align-items: center;
+ text-align: center;
+
+}
+.kid21{
+ width: 25%;
+}
+.kid22{
+ width: 50%;
+}
+.kid23{
+ width: 25%;
+}
+.head21{
+ font-size: 50px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img1{
+ margin: 15px 0px;
+}
+.parent3{
+ display: flex;
+}
+.kid32{
+ display: flex;
+
+}
+.image31{
+ margin-left: 10px;
+ margin-top: -5px;
+}
+.head31{
+ font-size: 24px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: center;
+ padding: 20px 0px;
+}
+.para31{
+ font-size: 16px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding: 0px 20px;
+ text-align: center;
+}
+.head32{
+ font-size: 24px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: center;
+ padding-top: 33px;
+ padding-bottom: 19px;
+ padding-left: 10px;
+}
+
+.kid31{
+width: 15%;
+
+}
+.kid32{
+width: 70%;
+}
+.kid33{
+width: 15%;
+}
+
+/* Third Section */
+.div41{
+ width: 100%;
+ height: 60vh;
+ margin-top: 50px;
+ background-image: url(../images/We\ Make\,Background.png);
+ position: relative;
+}
+.div42{
+ width: 100%;
+ height: 60vh;
+ display: flex;
+ background-color: rgb(26, 54, 67, 0.85);
+ position: absolute;
+ top: 1302px;
+ color: white;
+ box-sizing: border-box;
+}
+.kid41{
+ width: 15%;
+}
+.kid42{
+ width: 30%;
+}
+.kid43{
+ width: 40%;
+ padding-top: 60px;
+ padding-left: 20px;
+}
+.kid44{
+ width: 15%;
+}
+.header4{
+ color: #FFE500;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding: 10px 0px;
+}
+.hi1{
+ display: flex;
+
+ padding: 5px 15px;
+}
+.head41{
+ padding-top: 3px;
+ color: white;
+ font-weight: 500;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding-left: 10px;
+}
+
+.yellowdiv{
+ width: 100%;
+ height: 15vh;
+ background-color: #FFE500;
+ text-align: center;
+}
+.tab{
+ display: flex;
+ justify-content: center;
+}
+.tab2{
+ margin: 10px 5px;
+ padding: 5px 15px;
+ padding: 5px 20px;
+ border-radius: 30px;
+}
+.tab2:hover{
+ background-color: #FFE500;
+ padding: 5px 20px;
+ border-radius: 30px;
+}
+
+.gallery{
+ display: flex;
+ box-sizing: border-box;
+ align-items: center;
+ text-align: center;
+ margin: 20px 0px;
+}
+.gal1{
+ width: 15%;
+ height: auto;
+}
+.gal3{
+ width: 15%;
+ height: auto;
+}
+.gal2{
+ width: 70%;
+ height: auto;
+ box-sizing: border-box;
+}
+.row1{
+ margin: 20px 0px;
+ box-sizing: border-box;
+}
+.btn2{
+ margin-top: 30px;
+ padding: 7px 20px;
+ color: white;
+ background-color: #FFE500;
+ font-size: 16px;
+ border: 0px;
+ border-radius: 30px;
+}
+
+/* Fifth Section */
+.div5{
+ width: 100%;
+ height: 60vh;
+ background-color: #FFE500;
+ display: flex;
+ box-sizing: border-box;
+ margin-top: 80px;
+
+}
+.div51,.div53{
+ height: auto;
+ width: 15%;
+}
+.div52{
+ width: 70%;
+ display: flex;
+ box-sizing: border-box;
+ align-items: center;
+ 
+}
+.head51{
+ font-size: 30px;
+ font-weight: 600;
+}
+.para51{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 400;
+ font-size: 20px;
+ padding: 10px 0px;
+}
+.para52{
+ font-size: 14px;
+}
+.div55{
+ padding: 0px 30px;
+ margin-top: -10px;
+ 
+}
+.btn4{
+ margin-top: 10px;
+ padding: 7px 20px;
+ color: black;
+ background-color: white;
+ font-size: 16px;
+ border: 0px;
+ border-radius: 30px;
+}
+
+/* Sixth Section */
+.div6{
+ width: 100%;
+ height: 70vh;
+ background-color: #324651;
+ color: white;
+ text-align: center;
+ 
+}
+.head6{
+ font-size: 20px;
+ padding-top: 65px;
+}
+.para6{
+ font-size: 10px;
+ font-weight: 400;
+ padding: 10px 0px;
+}
+.div7{
+ height: 65vh;
+ width: 100%;
+ text-align: end;
+ background-color: white,0.85;
+ position: absolute;
+ align-items: left;
+}
+.div8{
+display: flex;
+justify-content: end;
+
+/* margin-top: 400px; */
+}
+.kid81{
+ height: 70vh;
+ width: 20%;
+}
+.kid82{
+ height: 70vh;
+ width: 30%;
+}
+.kid83{
+ height: 70vh;
+ width: 30%;
+ /* background-color: white; */
+ opacity: 0.7;
+ z-index: 5;
+}
+
+.head8{
+ font-size: 24px;
+ color: #FFE500;
+ padding-top: 50px;
+ font-weight: 700;
+}
+.head89{
+ font-size: 22px;
+ color: black;
+ padding-top: 0px;
+ font-weight: 700;
+}
+.para8{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 400;
+ font-size: 14px;
+ padding: 0px 0px;
+}
+.icons{
+ display: flex;
+ padding-top: 15px;
+ 
+}
+.kidicon{
+ margin-left: 20px;
+}
+
+/* About Us */
+.div9{
+ width: 100%;
+ height: 50vh;
+ background-color: #324651;
+ display: flex;
+ box-sizing: border-box;
+ align-items: center;
+ margin-top: -90px;
+ z-index: 999;
+}
+.div91, .div94{
+ width: 15%;
+}
+.div92{
+ width: 40%;
+ box-sizing: border-box;
+}
+.div93{
+ width: 30%;
+ box-sizing: border-box;
+}
+.probar1{
+ width: 90%;
+ height: 10px;
+ background-image: linear-gradient(90deg, #FFE500 80%, white 20%);
+ border: 0px;
+ border-radius: 50px;
+}
+.head91{
+ color: white;
+ font-size: 15px;
+ font-weight: 600;
+ padding-top: 20px;
+ padding-bottom: 5px;
+}
+.para91{
+ color: white;
+ font-size: 14px;
+ padding-top: 45px;
+ padding-bottom: 5px;
+}
+.para92{
+ color: white;
+ font-size: 14px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.head93{
+ color: #FFE500;
+ font-size: 18px;
+}
+
+/* Blog Section */
+.div10{
+ width: 100%;
+ 
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+.div11{
+ width: 70%;
+ height: 70vh;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ box-sizing: border-box;
+
+}
+.div111{
+ width: 50%;
+ margin-right: 10px;
+ height: auto;
+ box-shadow: 0.2px 1.3px 0.2px 0.2px #dadada;
+}
+.div112{
+ width: 50%;
+ margin-left: 10px;
+ box-shadow: 0.2px 1.3px 0.2px 0.2px #dadada;
+}
+.head10{
+ font-size: 16px;
+ font-weight: 600;
+ color: #FFE500;
+ padding: 5px 20px;
+}
+.para10{
+ font-size: 14px;
+ padding: 1px 20px;
+}
+.para11{
+ font-size: 14px;
+ padding-left: 20px;
+ padding-top: 10px;
+ padding-right: 5px;
+}
+.read{
+ color: #FFE500;
+ text-decoration: none;
+ 
+}
+.para12{
+ text-align: right;
+ padding-right: 50px;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
+.moly{
+ color: #FFE500;
+ text-decoration: none;
+}
+.div12{
+ width: 70%;
+ display: flex;
+
+}
+.div121{
+ width: 32%;
+ box-shadow: 0.2px 1.3px 0.2px 0.2px #dadada;
+}
+.div122{
+ width: 32%;
+ margin: 0px 20px;
+ box-shadow: 0.2px 1.3px 0.2px 0.2px #dadada;
+}
+.div13{
+ width: 100%;
+ height: 50vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -50px;
+}
+.head20{
+ font-size: 15px;
+ font-weight: 600;
+ color: #FFE500;
+ padding: 5px 20px;
+}
+.para20{
+ font-size: 13px;
+ padding: 1px 20px;
+}
+.para21{
+ font-size: 13px;
+ padding-left: 20px;
+ padding-top: 10px;
+ padding-right: 20px;
+}
+.read{
+ color: #FFE500;
+ text-decoration: none;
+ 
+}
+.para22{
+ text-align: right;
+ padding-right: 20px;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
+
+.btn3{
+ margin-top: 30px;
+ padding: 7px 20px;
+ color: white;
+ background-color: #FFE500;
+ font-size: 16px;
+ border: 0px;
+ border-radius: 30px;
+ align-items: center;
+ margin-bottom: 50px;
+}
+
+.div14{
+ align-items: center;
+ text-align: center;
+}
+
+/* Subscription Section */
+.div15{
+ width: 100%;
+ height: auto;
+ background-color: #FFE500;
+ text-align: center;
+ align-items: center;
+ box-sizing: border-box;
+ padding: 30px;
+}
+.head15{
+ color: white;
+text-align: center;
+
+}
+.inp{
+font-size: 10px;
+padding: 10px 15px;
+width: 200px;
+border: 0px;
+border-radius: 50px;
+}
+.sub{
+ font-size: 12px;
+ font-weight: 500;
+padding: 10px 30px;
+width: auto;
+border: 0px;
+border-radius: 50px;
+background-color: white;
+margin: 20px 5px;
+}
+
+
+/* Contact Us */
+.div16{
+ width: 100%;
+ height: 100vh;
+ background-image: url("../images/Contact\ Background.png");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.div17{
+ width: 100%;
+ height: 100vh;
+ background-color: rgb(26, 54, 67, 0.85);
+ color: white;
+ position: absolute;
+ top: 5800px;
+ align-items: center;
+ text-align: center;
+}
+.inp2{
+ background-color: rgb(238, 234, 234, 0);
+ border: 1.5px solid white;
+ padding: 7px 10px;
+ border-radius: 5px;
+ font-size: 14px;
+ color: white;
+ width: 255px;
+ margin: 10px 10px;
+ 
+}
+.inp2::placeholder{
+ color: white;
+ 
+}
+.area{
+ width: 860px;
+ background-color: rgb(238, 234, 234, 0);
+ border: 1.5px solid white;
+ border-radius: 5px;
+ padding: 7px 10px;
+ margin: 20px 10px;
+
+}
+.area::placeholder{
+ color: white;
+ 
+ font-size: 14px;
+}
+
+/* Footer */
+
+.div18{
+ width: 100%;
+ height: auto;
+ background-color: #131b1f;
+ color: white;
+ font-size: 14px;
+ text-align: center;
+ text-align: center;
+ padding: 40px 0px;
+
+}
+
+.para19{
+ padding: 5px 0px;
+}
+.ficons{
+ display: flex;
+ justify-content: center;
+ margin-top: 3px;
+}
+.fkidicon{
+ margin: 3px 5px;
+}
+
+
